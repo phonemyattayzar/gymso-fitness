@@ -1,0 +1,62 @@
+.btn-hero {
+
+    padding: 16px 25px;
+
+    color: $primary-color;
+
+    border-color: $primary-color;
+
+    border-radius: 0;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    letter-spacing: 0.5px;
+
+    &:hover {
+
+        background-color: white;
+
+        border-color: white;
+
+        color: $primary-color;
+    }
+
+    &:focus {
+
+        box-shadow: none;
+    }
+
+
+}
+
+.btn-hero-reverse {
+
+     padding: 16px 25px;
+
+     color: white;
+
+     border-color: none;
+
+     border-radius: 0;
+
+     font-size: 14px;
+
+     font-weight: normal;
+
+     letter-spacing: 0.5px;
+
+     &:hover {
+
+        color: $primary-color;
+     }
+
+     &:focus {
+         
+        box-shadow: none;
+
+     }
+
+
+}

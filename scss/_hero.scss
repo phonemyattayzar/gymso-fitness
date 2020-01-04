@@ -1,0 +1,67 @@
+.hero {
+
+    background: url("images/hero-bg.jpg");
+
+    background-position: top;
+
+    background-size: cover;
+
+    height: 100vh;
+
+    font-family: $font-stack;
+
+    .hero-content {
+
+        color: white;
+
+        h6 {
+            font-size: 26px;
+
+            color: #909090;
+        }
+
+        h1 {
+            font-size:48px;
+
+            font-weight: bold;
+
+            letter-spacing: -1px;
+
+        }
+
+
+
+        
+    }
+
+    .overlay {
+
+        background: #171819;
+
+        height: 100%;
+
+        width: 100%;
+
+        position: absolute;
+
+        top: 0;
+
+        right: 0;
+
+        bottom: 0;
+
+        left: 0;
+
+        opacity: 0.85;
+
+        
+
+    }
+
+   
+
+
+  
+
+    
+}
